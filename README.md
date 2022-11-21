@@ -18,9 +18,9 @@ To run the DeepSpeech model, follow the code blocks in the Colab Notebook attach
 - Modify the paths for location of data and checkpoints while running training and during inferences.
 
 The code for preprocessing_bitrate_channnel_conversion, Speaker_diarization, XLSR_Training, XLSR_Inference_Confusion_Matrix, Making_Graphs is present in the Tensformer folder.
--First, use the Pre_processing_bitrate_and_channel_Conversion file to preprocess and convert channel. The directory structure in which the data is already accounted for.
--Then used the denoise data process as describe above. Again, it is set to use the directory structure of the dataset automatically.
--Then use the Speaker_Diarization.py file to remove the audio files with multiple speakers. Again, it is set to use the directory structure of the dataset automatically.
--Then use the train.py file to train. The pretrained model downloads automatically. It is also set to use the directory structure of the dataset automatically.
--Then use the inference_and_confusion_matrix.py file to generate the CER, WER and Comfusion matrix. It is also set to use the directory structure of the dataset automatically.
--Manually put the CER and WER values in Graphs-289G.ipynb to make graphs. The previous graph images are preloaded.
+- First, use the Pre_processing_bitrate_and_channel_Conversion file to preprocess and convert channel. The directory structure in which the data is already accounted for.
+- Then used the denoise data process as describe above. Again, it is set to use the directory structure of the dataset automatically.
+- Then use the Speaker_Diarization.py file to remove the audio files with multiple speakers. Again, it is set to use the directory structure of the dataset automatically.
+- Then use the train.py file to train. The pretrained model downloads automatically. It is also set to use the directory structure of the dataset automatically.
+- Then use the inference_and_confusion_matrix.py file to generate the CER, WER and Comfusion matrix. It is also set to use the directory structure of the dataset automatically.
+- Manually put the CER and WER values in Graphs-289G.ipynb to make graphs. The previous graph images are preloaded.
