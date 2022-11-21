@@ -13,5 +13,6 @@ To run the DeepSpeech model, follow the code blocks in the Colab Notebook attach
 - Uncomment lines in the notebook follow all the steps to install all required dependency.
 - The trained models can be found under model/Trained_Model folder which can be used to run the inference on testing data.
 - Due to very large size of checkpoints and models produced, different colab accounts were used to train the models.
-- Modify the 'data_path' and run data<dataset_name>.py models to produce .csv files to be used for training.
-- For inference, run the code in Colab with comment "Running inference on trained model by using unseen testing data". This requires checkpoints to be available at 'checkpoint_dir'
+- Modify the `data_path` and run data<dataset_name>.py models to produce .csv files to be used for training.
+- For inference, run the code in Colab with comment "Running inference on trained model by using unseen testing data". This requires checkpoints to be available at `checkpoint_dir`
+- Modify the paths for location of data and checkpoints while running training and during inferences.
